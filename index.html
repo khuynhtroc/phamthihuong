@@ -262,42 +262,25 @@
 							<h2>Lời chúc</h2>
 							<span>Hãy có mặt tại Lễ Cưới để chung vui và chúc phúc cho Chúng tôi nhé!</span>
 						</div>
-
-						<div class="row">
-							<div class="clear"></div><div class="line"></div>
-							<div class="col-xs-12">
-								<label>Switcher inside Modal:</label><br>
-								<!-- Button trigger modal -->
-								<button class="button button-3d button-large nomargin" data-toggle="modal" data-target="#myModal">Launch Modal</button>
-								<!-- Modal -->
-								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-									<div class="modal-dialog">
-										<div class="modal-body center">
-											<div class="modal-content">
-												<div class="modal-header">
-													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-													<h4 class="modal-title" id="myModalLabel">Switcher inside Modal</h4>
-												</div>
-												<div class="modal-body section nobg nomargin">
-													<div class="col_half nobottommargin">
-														<input class="bt-switch" type="checkbox" checked data-on-text="Enable" data-off-text="Disable">
-													</div>
-													<div class="col_half nobottommargin col_last">
-														<div class="switch">
-															<input id="switch-toggle-12" class="switch-toggle switch-toggle-round center" type="checkbox">
-															<label for="switch-toggle-12"></label>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="clear"></div><div class="line"></div>
-						</div>
 					</div>
-
+					<script>
+					  window.fbAsyncInit = function() {
+					    FB.init({
+					      appId      : '134929050561490',
+					      xfbml      : true,
+					      version    : 'v2.11'
+					    });
+					    FB.AppEvents.logPageView();
+					  };
+					
+					  (function(d, s, id){
+					     var js, fjs = d.getElementsByTagName(s)[0];
+					     if (d.getElementById(id)) {return;}
+					     js = d.createElement(s); js.id = id;
+					     js.src = "https://connect.facebook.net/en_US/sdk.js";
+					     fjs.parentNode.insertBefore(js, fjs);
+					   }(document, 'script', 'facebook-jssdk'));
+					</script>
 				</div>
 
 			</div>
